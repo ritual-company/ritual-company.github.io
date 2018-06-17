@@ -18,9 +18,9 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ритуальные принадлежности
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://ritual-company.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  ritual-company
 
 # Build settings
 markdown: kramdown
