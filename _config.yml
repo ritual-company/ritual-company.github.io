@@ -24,6 +24,19 @@ github_username:  ritual-company
 
 # Build settings
 markdown: kramdown
+timezone: Europe/Moscow # временная зона
+destination: _site      # директория с собранной статикой
+relative_permalinks: false # использовать ли относительные пути
+
+# путь к статье в формате /категория/название_статьи
+permalink: /:categories/:title/
+
+# не публиковать посты, указанное время которых
+# позднее времени момента публикации
+future: false
+
+sass:
+    sass_dir: css
 
 plugins:
   - jekyll-feed
