@@ -1,54 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#exclude:
+#- sass
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+menu:
+  - url: /
+    name: Главная
+  - url: /gallery/
+    name: Галерея
+  - url: /about/
+    name: О нас
+  - url: /contacts/
+    name: Контакты
+
 title: Ритуал
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Ритуальные принадлежности
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ritual-company.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  ritual-company
-
-# Build settings
-markdown: kramdown
-timezone: Europe/Moscow # временная зона
-destination: _site      # директория с собранной статикой
-relative_permalinks: false # использовать ли относительные пути
-
-# путь к статье в формате /категория/название_статьи
-permalink: /:categories/:title/
-
-# не публиковать посты, указанное время которых
-# позднее времени момента публикации
-future: false
 
 sass:
-    sass_dir: css
-
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  sass_dir: /assets/styles

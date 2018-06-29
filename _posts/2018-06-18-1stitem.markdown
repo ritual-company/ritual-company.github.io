@@ -1,9 +1,0 @@
----
-layout: post
-title: 1st post
-category: posts
-description: best posts
----
-
-{{ page.date | date_to_string }}
-<p>My 1st page</p>
