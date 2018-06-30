@@ -2,20 +2,27 @@
 // header-top.html /
 
 .header-top
+	display: flex
+	justify-content: space-between
 	ul.contacts
 		li
-
+			display: inline-block
 	ul.soc-buttons
 		li
+			display: inline-block
 	
 // header-bottom.html / NAV
 
-nav
-	ul
+.header-bottom
+	display: flex
+	justify-content: space-around
+	.logo
+	nav.menu-top
+		ul
 		
-		li 
-			a
+			li
+				display: inline-block
+			li a 
 				text-decoration: none
-
-		li.active
-			border-bottom: 2px solid gray
+			li.active
+				border-bottom: 2px solid gray
