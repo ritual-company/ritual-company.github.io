@@ -299,97 +299,28 @@ template {
 [hidden] {
   display: none; }
 
-.header-bottom {
-  display: flex;
-  align-items: center;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  /*background: url("/assets/images/header_background.jpg") no-repeat 90% 20%/cover */ }
-  .header-bottom nav ul {
-    padding: 30px 0 30px 0;
-    margin: 0; }
-    .header-bottom nav ul li {
-      display: inline-block;
-      font-size: 24px;
-      margin-right: 15px; }
-      .header-bottom nav ul li.active {
-        border-bottom: 2px solid brown; }
-      .header-bottom nav ul li a {
-        color: brown;
-        text-decoration: none; }
-      .header-bottom nav ul li:hover {
-        border-bottom: 2px solid brown; }
-  .header-bottom h1 {
-    margin: 0; }
+* {
+  margin: 0;
+  padding: 0; }
 
-.header-top {
-  display: flex;
-  align-items: center;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  border-top: 2px solid orange;
-  background-color: black;
-  /*background-color: rgba(112, 122, 122, 0.5) */ }
-  .header-top .contacts .fa {
-    margin-right: 10px; }
-  .header-top a {
-    color: white;
-    text-decoration: none; }
-  .header-top ul {
-    margin: 0;
-    padding: 5px; }
-    .header-top ul li {
-      display: inline-block;
-      margin-right: 10px; }
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: brown;
-  color: orange; }
-  footer nav.menu-bottom ul {
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-    footer nav.menu-bottom ul li {
-      display: block;
-      font-size: 80%; }
-      footer nav.menu-bottom ul li a {
-        text-decoration: none;
-        color: orange; }
-  footer .social ul {
-    padding: 0;
-    list-style: none; }
-    footer .social ul li {
-      display: inline-block;
-      margin-right: 15px;
-      opacity: 0.7;
-      transition: opacity 0.5s; }
-    footer .social ul:hover {
-      opacity: 1; }
-    footer .social ul:last-child {
-      margin-right: 0; }
-    footer .social ul a {
-      display: block;
-      height: 100%; }
-    footer .social ul .fa {
-      color: orange; }
-
-html {
-  box-sizing: border-box;
+html, body {
   height: 100%; }
 
 body {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 970px;
-  margin: 0 auto;
-  font-family: "Roboto Slab", serif;
-  font-size: 14px; }
+  max-width: 1100px; }
 
-.main {
-  flex-grow: 1; }
+.wrapper-main {
+  flex: 1 0 auto; }
+
+li {
+  list-style: none; }
+
+nav ul li a {
+  text-decoration: none; }
+nav ul li.active {
+  border-bottom: 2px solid gray; }
+
+footer {
+  flex-shrink: 0; }
