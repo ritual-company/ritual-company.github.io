@@ -1,0 +1,10 @@
+all-in:
+  alt: Фото
+  urls:
+    - /assets/images/gallery/1.jpg
+    - /assets/images/gallery/2.jpg
+
+grob:
+  alt: Фото "Гробы"
+  urls:
+    - /assets/images/gallery/2.jpg

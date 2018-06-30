@@ -1,6 +1,7 @@
 #exclude:
 #- sass
 baseurl: /
+gallery: /gallery/
 
 title: Ритуал
 
