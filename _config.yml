@@ -4,18 +4,6 @@ baseurl: /
 
 title: Ритуал
 
-# Задаем дефолтные настройки для плагина постраничного вывода постов: jekyll-paginate-v2
-pagination:
-  enabled: true
-  per_page: 2
-
-# Подключаем плагин: jekyll-paginate-v2
-gem:
-  -jekyll-paginate-v2
-
-plugins:
-  - jekyll-feed
-
 menu:
   - url: /
     name: Главная
