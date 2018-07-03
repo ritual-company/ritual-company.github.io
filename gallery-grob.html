@@ -1,0 +1,16 @@
+---
+layout: gallery
+permalink: gallery-grob
+title: Гробы
+---
+<div class="content wrapper-gallery">
+	<div class="gallery-categories">
+
+		{% for img in site.data.gallery-grob.grob.urls limit:10 %}
+			<div class="grid-item">
+				<img src="{{img}}" alt="{{site.data.gallery-grob.grob.alt}}"></img>
+			</div>
+		{% endfor %}
+
+	</div>
+</div>
