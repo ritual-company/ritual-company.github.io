@@ -4,13 +4,20 @@
 .header-top
 	display: flex
 	justify-content: space-between
+	border: 1px solid #ddd
+	border-radius: 0 0 4px 4px
+	padding: 5px 15px 5px 20px
 	ul.contacts
 		li
+			margin-right: 10px
 			display: inline-block
 			a
 				text-decoration: none
+				.fa
+					margin-right: 10px
 	ul.soc-buttons
 		li
+			margin-right: 10px
 			display: inline-block
 	
 // header-bottom.html / NAV-MENU-TOP
@@ -20,12 +27,29 @@
 	justify-content: space-around
 	align-items: center
 	min-height: 120px
+	margin: 5px 0 5px 0
+	border: 1px solid #ddd
+	border-radius: 4px
 	.logo
+		ul
+			display: flex
+			align-items: center
+			li.logo-text
+				font-size: 36px
+				margin: 0 0 0 10px
+				a
+					text-decoration: none
+					font-family: 'Roboto Slab', serif
+			li.logo-image
+				img
+					max-width: 50px
 	nav.menu-top
 		ul
 			li
 				display: inline-block
 			li a 
 				text-decoration: none
+				font-size: 22px
+				margin: 0 4px 0 4px
 			li.active
 				border-bottom: 2px solid gray

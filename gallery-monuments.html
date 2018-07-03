@@ -1,0 +1,16 @@
+---
+layout: gallery
+permalink: gallery-monuments
+title: Памятники
+---
+<div class="content wrapper-gallery">
+	<div class="gallery-categories">
+
+		{% for img in site.data.gallery-monuments.monuments.urls limit:10 %}
+			<div class="grid-item">
+				<img src="{{img}}" alt="{{site.data.gallery-monuments.monuments.alt}}" />
+			</div>
+		{% endfor %}
+
+	</div>
+</div>
